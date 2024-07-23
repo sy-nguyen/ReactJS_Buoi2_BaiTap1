@@ -4,7 +4,6 @@ ul{
 
 .tours{
     margin-top: 3rem;
-    border: 1px solid #000
 }
 
 
@@ -18,7 +17,7 @@ ul{
     font-size: 1.5rem;
 }
 
-ul .tab_list{
+ul{
     display: flex;
     justify-content: center;
     border: 0;
@@ -28,4 +27,19 @@ ul li.item{
     margin: 2rem .5rem 0;
     box-sizing: border-box;
 
+}
+
+li button{
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 7px 29px 0 hsla(240, 5%, 41%, .2);
+    color: #000;
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+}
+
+li button.active{
+    background-color: #44d7b6;
+    color: #fff;
 }
